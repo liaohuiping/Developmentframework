@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  kaifakuangjia
+
+  Created by lhp on 2018/5/28.
+  Copyright © 2018年 lhp. All rights reserved.
+*/
+
+//login
+"Login" = "登录";
+"Tabbar1" = "首页";
+"Tabbar2" = "中心";
+"Tabbar3" = "消息";
+"Tabbar4" = "我的";
+
+"NoNetReloadData" = "暂无网络";
+"ReloadData" = "点击重新加载";

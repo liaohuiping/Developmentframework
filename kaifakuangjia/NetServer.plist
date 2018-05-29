@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>des</key>
+		<string>正式环境地址</string>
+		<key>type</key>
+		<integer>0</integer>
+		<key>net</key>
+		<string>http://hotpay.woojie.net:80/</string>
+		<key>makeys_base</key>
+		<string>http://makeys.qeveworld.com/</string>
+		<key>New item</key>
+		<string></string>
+		<key>email_base</key>
+		<string>http://www.qeveworld.com/</string>
+		<key>force_base</key>
+		<string>http://www.force-center.com/</string>
+	</dict>
+	<dict>
+		<key>des</key>
+		<string>测试环境地址</string>
+		<key>type</key>
+		<integer>1</integer>
+		<key>net</key>
+		<string>http://192.168.2.139:80/</string>
+		<key>makeys_base</key>
+		<string>http://test-makeys.qeveworld.com/</string>
+		<key>email_base</key>
+		<string>http://www.qeveworld.biz/</string>
+		<key>force_base</key>
+		<string>http://test-force.live2017.biz:5050</string>
+	</dict>
+	<dict>
+		<key>des</key>
+		<string>开发环境地址</string>
+		<key>type</key>
+		<integer>2</integer>
+		<key>net</key>
+		<string>http://192.168.2.31:96/</string>
+		<key>makeys_base</key>
+		<string>http://test-makeys.qeveworld.com/</string>
+		<key>email_base</key>
+		<string>http://www.qeveworld.biz/</string>
+		<key>force_base</key>
+		<string>http://test-force.live2017.biz:5050</string>
+	</dict>
+</array>
+</plist>
