@@ -622,6 +622,72 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		D77E3E4520C1346D005D743D /* PageModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E99E20BBDB4900A98DFA /* DNPageModel.h */,
+				D7B9E99F20BBDB4900A98DFA /* DNPageModel.m */,
+				D7B9E9A020BBDB4900A98DFA /* DNPageRequestModel.h */,
+				D7B9E9A120BBDB4900A98DFA /* DNPageRequestModel.m */,
+				D7B9E9A220BBDB4900A98DFA /* DNPageResponseModel.h */,
+				D7B9E9A320BBDB4900A98DFA /* DNPageResponseModel.m */,
+			);
+			path = PageModel;
+			sourceTree = "<group>";
+		};
+		D77E3E4720C134A1005D743D /* ExtraModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E99820BBDB4900A98DFA /* DNImageTitleModel.h */,
+				D7B9E99920BBDB4900A98DFA /* DNImageTitleModel.m */,
+				D7B9E99A20BBDB4900A98DFA /* DNLanguageModel.h */,
+				D7B9E99B20BBDB4900A98DFA /* DNLanguageModel.m */,
+				D7B9E99C20BBDB4900A98DFA /* DNNetServerModel.h */,
+				D7B9E99D20BBDB4900A98DFA /* DNNetServerModel.m */,
+				D7B9E9A420BBDB4900A98DFA /* DNResponseModel.h */,
+				D7B9E9A520BBDB4900A98DFA /* DNResponseModel.m */,
+				D7B9E9A620BBDB4900A98DFA /* DNUpdateModel.h */,
+				D7B9E9A720BBDB4900A98DFA /* DNUpdateModel.m */,
+			);
+			path = ExtraModel;
+			sourceTree = "<group>";
+		};
+		D77E3E4820C134D2005D743D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E99520BBDB4900A98DFA /* DNUserModel.h */,
+				D7B9E99620BBDB4900A98DFA /* DNUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D77E3E4920C134EA005D743D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E9CD20BBEA3C00A98DFA /* LoginViewController.h */,
+				D7B9E9CE20BBEA3C00A98DFA /* LoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D77E3E4A20C13509005D743D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D77E3E4B20C13533005D743D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D76639A320B669AD002D53DA /* DNRootViewController.h */,
+				D76639A420B669AD002D53DA /* DNRootViewController.m */,
+				D7B9E9B120BBDE0300A98DFA /* HPTarBarViewController.h */,
+				D7B9E9B220BBDE0300A98DFA /* HPTarBarViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		D7B9E8BB20BBD04000A98DFA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -751,7 +817,6 @@
 			isa = PBXGroup;
 			children = (
 				D7B9E99720BBDB4900A98DFA /* Common */,
-				D7B9E99420BBDB4900A98DFA /* Login */,
 			);
 			name = Model;
 			path = kaifakuangjia/Model;
@@ -760,15 +825,12 @@
 		D7B9E99220BBD9D600A98DFA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D77E3E4B20C13533005D743D /* Common */,
 				D7B9E9CC20BBEA2800A98DFA /* Login */,
 				D7B9E9B720BBE09300A98DFA /* TabOne */,
 				D7B9E9B620BBE09300A98DFA /* TabTwo */,
 				D7B9E9B520BBE09300A98DFA /* TabThree */,
 				D7B9E9B420BBE09300A98DFA /* TabFour */,
-				D76639A320B669AD002D53DA /* DNRootViewController.h */,
-				D76639A420B669AD002D53DA /* DNRootViewController.m */,
-				D7B9E9B120BBDE0300A98DFA /* HPTarBarViewController.h */,
-				D7B9E9B220BBDE0300A98DFA /* HPTarBarViewController.m */,
 			);
 			name = Controllers;
 			path = kaifakuangjia/Controllers;
@@ -788,34 +850,11 @@
 			path = kaifakuangjia/AppSource;
 			sourceTree = SOURCE_ROOT;
 		};
-		D7B9E99420BBDB4900A98DFA /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				D7B9E99520BBDB4900A98DFA /* DNUserModel.h */,
-				D7B9E99620BBDB4900A98DFA /* DNUserModel.m */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		D7B9E99720BBDB4900A98DFA /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				D7B9E99820BBDB4900A98DFA /* DNImageTitleModel.h */,
-				D7B9E99920BBDB4900A98DFA /* DNImageTitleModel.m */,
-				D7B9E99A20BBDB4900A98DFA /* DNLanguageModel.h */,
-				D7B9E99B20BBDB4900A98DFA /* DNLanguageModel.m */,
-				D7B9E99C20BBDB4900A98DFA /* DNNetServerModel.h */,
-				D7B9E99D20BBDB4900A98DFA /* DNNetServerModel.m */,
-				D7B9E99E20BBDB4900A98DFA /* DNPageModel.h */,
-				D7B9E99F20BBDB4900A98DFA /* DNPageModel.m */,
-				D7B9E9A020BBDB4900A98DFA /* DNPageRequestModel.h */,
-				D7B9E9A120BBDB4900A98DFA /* DNPageRequestModel.m */,
-				D7B9E9A220BBDB4900A98DFA /* DNPageResponseModel.h */,
-				D7B9E9A320BBDB4900A98DFA /* DNPageResponseModel.m */,
-				D7B9E9A420BBDB4900A98DFA /* DNResponseModel.h */,
-				D7B9E9A520BBDB4900A98DFA /* DNResponseModel.m */,
-				D7B9E9A620BBDB4900A98DFA /* DNUpdateModel.h */,
-				D7B9E9A720BBDB4900A98DFA /* DNUpdateModel.m */,
+				D77E3E4720C134A1005D743D /* ExtraModel */,
+				D77E3E4520C1346D005D743D /* PageModel */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -859,8 +898,9 @@
 		D7B9E9CC20BBEA2800A98DFA /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				D7B9E9CD20BBEA3C00A98DFA /* LoginViewController.h */,
-				D7B9E9CE20BBEA3C00A98DFA /* LoginViewController.m */,
+				D77E3E4820C134D2005D743D /* Model */,
+				D77E3E4A20C13509005D743D /* Views */,
+				D77E3E4920C134EA005D743D /* Controllers */,
 			);
 			path = Login;
 			sourceTree = "<group>";

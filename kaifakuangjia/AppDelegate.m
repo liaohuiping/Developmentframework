@@ -58,6 +58,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    NSLog(@"上传新版本");
+    
     [self setLanguage];
     
     [self netStatusReceive];

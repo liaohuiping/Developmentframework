@@ -22,6 +22,8 @@
         //点击重新加载
     }];
 }
+
+
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
 

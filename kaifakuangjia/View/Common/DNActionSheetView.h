@@ -12,5 +12,5 @@
 
 -(instancetype)initWithFrame:(CGRect)frame withActionArr:(NSArray*)actionArr;
 @property(strong,nonatomic)void(^cellDidSelected)(NSIndexPath* indexPath);
-@property(strong,nonatomic)void(^otherViewTouched)();
+@property(strong,nonatomic)void(^otherViewTouched)(void);
 @end
